@@ -1,0 +1,168 @@
+.background{
+    width: 100%;
+    height: 680px;
+   
+}
+
+.texts{
+    margin-top:10%;
+}
+
+.img{
+    margin-top: 10%;
+}
+
+.h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: rgba(15, 33, 103, 1);
+    line-height: 42px;
+}
+
+.sp1{
+    color: #ffc436;
+}
+
+.para{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.butn{
+    text-align: center;
+   
+}
+
+.btn1{
+    background-color: rgba(54, 48, 98, 1);
+    font-weight: 600;
+    font-size: 22px;
+    width: 283px;
+    height: 54px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 25%
+}
+
+
+/* @media  (max-width: 758px) {    
+    .btn1{
+        background-color: rgba(54, 48, 98, 1);
+        font-weight: 400;
+        font-size: 15px;
+        width: 153px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        margin-top: 10%
+    }
+
+    .img-fluid{
+        position: relative;
+        bottom: 200px;
+        left: 60px;
+        margin-bottom: -100px;
+        padding: 5rem;
+
+    }}
+
+
+
+@media  (max-width: 712px) {
+    .btn1{
+        background-color: rgba(54, 48, 98, 1);
+        font-weight: 400;
+        font-size: 15px;
+        width: 153px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        margin-top: 10%
+    }
+    
+    .img-fluid{
+        position: relative;
+        bottom: 200px;
+        left: 60px;
+        margin-bottom: -10px;
+        padding: 5rem;
+    
+    }
+}
+
+@media  (max-width: 568px) { 
+    .texts{
+        margin-top: 20%;
+    }
+    .h1{
+        font-size: 20px;
+        font-weight: 500;
+    }  
+
+    .para{
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .btn1{
+        background-color: rgba(54, 48, 98, 1);
+        font-weight: 400;
+        font-size: 15px;
+        width: 153px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        margin-top: 10%
+    }
+    
+    .img-fluid{
+        position: relative;
+        bottom: 60px;
+        left: 60px;
+        margin-bottom: -10px;
+        padding: 2rem;
+    
+    }}  */
+
+
+@media only screen and (min-width : 1224px) {
+.texts{
+    width: 58%;
+}
+}
+
+@media only screen and (min-width : 1824px) {
+    .texts{
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .h1{
+        font-size: 20px;
+        font-weight: 700;
+    }  
+
+    .para{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .btn1{
+        background-color: rgba(54, 48, 98, 1);
+        font-weight: 400;
+        font-size: 15px;
+        width: 153px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        margin-top: 10%
+    }
+    .texts{
+        width: 100%;
+        
+    }
+
+}

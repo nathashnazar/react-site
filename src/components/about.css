@@ -1,0 +1,25 @@
+.main{
+     background: linear-gradient(rgba(185, 206, 255, 0.65));
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.about-img{
+    height: 500px;
+    width: 450px;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+@media  (max-width: 500px) { 
+    .about-img{
+        height: 400px;
+        width: 350px;
+    }
+}
